@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Targeting the h1 element */
+body {
+    background-color: #C7C7C7;
+}
+h1 {
+    font-family: sans-serif; /* Set font family */
+    color: #333; /* Set text color */
+    font-size: 36px; /* Set font size */
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Styling the h2 element */
+h2 {
+    font-family: sans-serif; /* Set font family */
+    color: #666; /* Set text color */
+    font-size: 24px; /* Set font size */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Styling the h3 element */
+h3 {
+    font-family: sans-serif; /* Set font family */
+    color: #000000; /* Set text color */
+    font-size: 24px; /* Set font size */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+
+
+/* Styling the text input */
+#text-input {
+    width: 300px; /* Set width */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    margin: 20px auto; /* Center align horizontally */
+    display: block; /* Make it block-level */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add border radius */
+}
+
+/* style the input button */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #575757; /* Change background color of the input box */
+    color: #575757; /* Change text color */
+    width: 300px; /* Set width of the input box */
+}
+
+/* Styling placeholder text */
+#text-input::placeholder {
+    color: #575757; /* Set placeholder text color */
+    font-family: sans-serif; /* Set font family */
+}
+
+
+
