@@ -42,22 +42,45 @@ h3 {
     border-radius: 4px; /* Add border radius */
 }
 
-/* style the input button */
-input[type="text"] {
+/* Common styles for all input boxes */
+.common-style {
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     border-radius: 5px;
-    background-color: #575757; /* Change background color of the input box */
-    color: #575757; /* Change text color */
-    width: 300px; /* Set width of the input box */
+    width: 300px; /* Common width */
+    color: #ABABAB;
 }
 
-/* Styling placeholder text */
-#text-input::placeholder {
-    color: #575757; /* Set placeholder text color */
-    font-family: sans-serif; /* Set font family */
+.common-style:focus {
+    outline: none; /* Remove default focus style */
+    border-color: #C6C6C6; /* Change border color on focus */
 }
+
+/* Specific style for the home page */
+.homepage-input {
+    background-color: #C7C7C7;
+
+}
+
+/* Specific style for the spreadsheet */
+.spreadsheet-input {
+    background-color: #C7C7C7;
+    width: 250px; /* Different width for this input */
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the space between the links as needed */
+  }
 
 
 
